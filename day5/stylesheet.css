@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/sea.jpeg);
+    background-size: cover; <!-- the background on the whole screen -->
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('fonts/static/DancingScript-SemiBold.ttf') format('truetype');
+
+}
+
+@font-face {
+
+    font-family: 'Hand';
+    src: url('fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'DancingScript', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #FFC107;
+    margin-top: 100px;
+    animation: colorChange 2s infinite;
+
+}
+
+h3 {
+    font-family: 'Hand', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #FFA8B6;
+    margin-bottom: 20px;
+    animation: colorChange 2s infinite;
+    
+}
